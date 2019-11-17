@@ -1,3 +1,4 @@
+        'views/partner.xml',
 # -*- coding: utf-8 -*-
 {
     'name': "openacademy",
@@ -25,8 +26,10 @@
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
+        'templates.xml',
+        'views/openacademy.xml',
+        'views/partner.xml',
+
     ],
     # only loaded in demonstration mode
     'demo': [
